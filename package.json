@@ -1,0 +1,21 @@
+{
+  "name": "xml-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register/type-check --watch-extensions ts test/**/*.spec.ts",
+    "test:auto": "npm test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^5.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.8.1"
+  }
+}
